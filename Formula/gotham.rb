@@ -2,12 +2,12 @@
 class Gotham < Formula
   desc "An awesome static site generator based on Hugo."
   homepage "https://GothamHQ.com"
-  version "0.6.0"
+  version "0.7.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/gothamhq/gotham/releases/download/v0.6.0/gotham-v0.6.0-macos-amd64.tar.gz"
-    sha256 "db1f930aef528ae49262731fbb745b4f6f74fe0254a13a91b5c851f156f288f9"
+    url "https://github.com/gothamhq/gotham/releases/download/v0.7.0/gotham-v0.7.0-macos-amd64.tar.gz"
+    sha256 "023659c14fe70275726f1435ae0a0f7a37f79d288c125a43f5e5ad65747410f4"
   elsif OS.linux?
   end
   
